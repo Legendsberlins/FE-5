@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;
+}
+body{
+    font-family: 'Red Hat Display', sans-serif;
+    display: grid;
+    place-content: center;
+    min-width: 100vw;
+    min-height: 100vh;
+    background-image: url(images/pattern-background-mobile.svg);
+    background-color:hsl(225, 100%, 94%) ;
+    color: hsl(223, 47%, 23%)
+}
+.card{
+    max-width: 300px;
+    height: auto;
+    background-color: white;
+    left: 50%;
+    top:50%;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+.hero_illustration img{
+    width: 100%;
+    height: auto;
+    
+}
+.grid-flow{
+    display: grid;
+    align-content: start;
+    gap: 1rem;
+    margin: 1.5rem;
+}
+.order_summary{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+.order_summary p{
+    color:hsl(224, 23%, 55%);
+
+}
+.order_pricing{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:hsl(225, 100%, 98%);
+    border-radius: 1rem;
+    padding: 1rem;
+    font-size: 10px;
+}
+.icon_price{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.plan{
+    font-size: 14px;
+}
+
+.plan p{
+    color:hsl(224, 23%, 55%);
+}
+.link a{
+    color:hsl(245, 75%, 52%);
+}
+.link a:hover{
+    cursor: pointer;
+    text-decoration: none;
+    color:hsla(245, 75%, 52%, 0.692);
+}
+.button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 700;
+}
+.button{
+    color:hsl(224, 23%, 55%);
+}
+.button p:hover{
+    cursor: pointer;
+    color: black;
+}
+button{
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    padding: 0.8rem;
+    width: 100%;
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 2px 8px 8px rgba(0, 0, 0, 0.308);
+}
+button:hover{
+    background-color:hsla(245, 75%, 52%, 0.692);
+    cursor:pointer;
+}
